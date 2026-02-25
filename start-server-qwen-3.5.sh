@@ -12,6 +12,5 @@ uv run vllm-mlx serve "$MODEL" \
     --default-top-p 0.95 \
     --port "$PORT" \
     --continuous-batching \
-    --use-paged-cache \
     --kv-cache-quantization \
     --kv-cache-quantization-bits 8
