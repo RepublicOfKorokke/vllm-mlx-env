@@ -1,0 +1,10 @@
+[project]
+name = "vllm-mlx-env"
+version = "0.1.0"
+description = "Use vllm-mlx for local LLM server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["vllm-mlx"]
+
+[tool.uv.sources]
+vllm-mlx = { git = "https://github.com/waybarrios/vllm-mlx.git" }
